@@ -1,0 +1,183 @@
+.col-md-12 {
+	height: 100px;
+	background-color: #000;
+	overflow: hidden;
+}
+
+#col-md-12 {
+	margin-top: 15px;
+	margin-right: 350px;
+}
+
+.col-md-12 .li-1 {
+	float: right;
+	display: inline;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.col-md-12 a {
+	display: block;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#home-gold {
+	color: #FFD700;
+}
+
+.col-md-12 a:hover {
+	color: #FFD700;
+}
+
+#pizza-icon {
+	float: left;
+
+}
+
+.slidershow {
+	width:700;
+	height: 800px;
+	overflow: hidden;
+}
+
+.middle {
+}
+
+.navigation {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.bar {
+	width: 50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.bar:hover {
+	background: #fff;
+}
+
+input[name="r"] {
+	position: absolute;
+	left: 50%;
+	visibility: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+
+.slide {
+	width: 20%;
+	transition: 0.6s;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%;
+
+}
+
+#r1:checked ~ .s1 {
+	margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+	margin-left: -20%;
+}
+
+#r3:checked ~ .s1 {
+	margin-left: -40%;
+}
+
+#r4:checked ~ .s1 {
+	margin-left: -60%;
+}
+
+.ftco-intro .wrap {
+	color: white;
+  width: 100%; }
+  .ftco-intro .wrap .info {
+    background: #000;
+    padding: 30px; }
+    @media (min-width: 1200px) {
+      .ftco-intro .wrap .info {
+        width: calc(100% - 35%);
+        padding: 2% 5% 2% 12%; } }
+    @media (max-width: 767.98px) {
+      .ftco-intro .wrap .info {
+        width: 100%; } }
+    .ftco-intro .wrap .info p {
+      margin-bottom: 0; }
+  .ftco-intro .wrap .social {
+    width: 35%;
+    background: #fac564; }
+    @media (max-width: 767.98px) {
+      .ftco-intro .wrap .social {
+        width: 100%; } }
+    .ftco-intro .wrap .social .social-icon {
+      margin: 0;
+      padding: 0; }
+      .ftco-intro .wrap .social .social-icon li {
+        list-style: none;
+        display: inline-block;
+        line-height: 0;
+        padding: 0 10px; }
+        .ftco-intro .wrap .social .social-icon li a {
+          display: block;
+          margin: 0;
+          padding: 0; }
+          .ftco-intro .wrap .social .social-icon li a span {
+            color: #fff;
+            font-size: 20px; }
+  .ftco-intro .wrap h3 {
+    font-size: 16px; }
+  .ftco-intro .wrap .text {
+    width: calc(100% - 40px); }
+  .ftco-intro .wrap .icon {
+    width: 40px; }
+    .ftco-intro .wrap .icon span {
+      color: #fac564;
+      font-size: 20px; }
+
+      #restaurant {
+      	padding: 0px;
+      	margin: 0px;
+      }
+
+      #about {
+      	padding: 0px;
+      	margin: 0px;
+      }
+
+      .col-md-6 {
+      	background-image: url(bg_4.jpg);
+      	padding: 0px;
+      	margin: 0px;
+      }
+
+h2 {
+	position: absolute;
+	left: 30%;
+	top: 50%;
+	color: white;
+}
+
+span {
+	color: gold;
+}
